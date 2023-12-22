@@ -1,0 +1,169 @@
+.main-login-container{
+    background-image: url('../../assests/image.jpg');
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.login-container{
+    background-color: rgba(97, 0, 194, 0.2);
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    width: 100%;
+   height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.login-header-1{
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+/* YourComponent.css */
+
+/* Colors */
+:root {
+    --primary: #6100C2;
+    --error: orangered;
+    --font-color: #989897;
+    --border-radius: 5px;
+  }
+  
+  /* General Styles */
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .Links {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--font-color);
+  }
+  
+  /* Wrapper Styles */
+  .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header Styles */
+  
+  
+  /* Login Styles */
+  .login {
+    width: 425px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: var(--border-radius);
+  }
+  
+  /* Signin Form Styles */
+  .signin-form {
+    margin-top: 30px;
+    width: 70%;
+    position: relative;
+    height: 80%;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .signin-btn {
+    margin-top: 30px;
+    width: 100%;
+    padding: 13px 0;
+    border-radius: var(--border-radius);
+    border: none;
+    background: var(--primary);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Action Group Styles */
+  .action-group {
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--font-color);
+    font-size: 13px;
+  }
+  
+  /* Input Styles */
+  .field {
+    position: relative;
+  }
+  
+  .field input {
+    background: #333333;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    height: 45px;
+    margin: 5px 0;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 15px 0 0 20px;
+    outline: none;
+  }
+  
+  .field input:focus ~ .floating-label,
+  .field input:not(:focus):valid ~ .floating-label {
+    top: 8px;
+    bottom: 10px;
+    left: 20px;
+    font-size: 11px;
+    opacity: 1;
+  }
+  
+  .field input.invalid {
+    border-bottom: 2px solid var(--error);
+  }
+  
+  /* Floating Label Styles */
+  .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 18px;
+    transition: 0.2s ease all;
+    color: var(--font-color);
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: var(--error);
+    margin: 0;
+    font-size: 13px;
+    width: 100%;
+  }
+  
+  /* Onboarding Styles */
+  .onboarding {
+    bottom: 0;
+    margin-bottom: 50px;
+    position: absolute;
+   
+  }  
+  @media screen and (max-width: 800px){
+    .login{
+        width: 413px;
+    }
+  }

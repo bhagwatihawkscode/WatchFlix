@@ -1,0 +1,150 @@
+.overview-container{
+    background-color: rgba(97, 0, 194, 0.3);
+  display: flex;
+  padding: 20px;
+
+ flex-direction: column;
+   font-family: 'Poppins', sans-serif;
+}
+.over-container-middle{
+    display: flex;
+    justify-content: center;
+    
+  }
+.over-baner-contain{
+    position: relative;
+    display: flex;
+   
+    justify-content: center;
+    margin: 10px;
+}
+.over-baner-contain img{
+
+    object-fit: contain;
+   
+  }
+  .over-baner-upper-container{
+    position: absolute;
+    bottom: 0%;
+  width: 100%;
+  padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+ 
+ }
+ .about-conatainer{
+    color: #fff;
+  
+    
+ }
+ .about-inner-conatiner{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+ .playera-poster-container{
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+   
+ }
+ .poster-outer-container{
+   padding: 10px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+
+ .trending-div2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax value as needed */
+    gap: 20px;
+  }
+  
+.trending-item2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   
+    
+  }
+  .tranding-div2{
+    background-color: rgba(97, 0, 194, 0.3);
+    color: #fff;
+    width: 100%;
+    display: flex;
+   overflow: auto;
+  
+  
+  
+  }
+  .trending-item-info2{
+    position: absolute;
+    bottom: 0%;
+    
+   width: 100%;
+  padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+  .trending-item2 {
+    width: 100%;
+    height: auto; /* Allow the height to adjust based on the content */
+  }
+  
+  .trending-item2 img {
+    width: 100%; /* Ensure the image takes the full width of its parent */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  .Movie-main-contianer{
+    background-color: rgba(97, 0, 194, 0.3);
+    padding: 20px;
+  }
+  .container-filter-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .custom-select__menu{
+    background-color: #555 !important;
+    border-radius: 20px !important;
+  }
+  .video-set{
+    height: 400px !important;
+  }
+
+  /* For larger screens (4 columns) */
+  @media screen and (min-width: 768px) {
+    .trending-div2 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* For smaller screens (2 columns) */
+  @media screen and (max-width: 767px) {
+    .trending-div2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+ @media only screen and (max-width: 768px) { 
+    .about-inner-conatiner{
+        flex-direction: column;
+        
+    }
+    .playera-poster-container{
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .video-set{
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    
+ }

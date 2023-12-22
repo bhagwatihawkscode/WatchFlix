@@ -1,0 +1,288 @@
+.MHome-container{
+ width: 100%;
+display: flex;
+justify-content: center;
+background-color: #21201E;
+ 
+
+
+}
+.content-main{
+ height: 100%;
+  overflow-y: auto;
+ 
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.header-1{
+   
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     align-items: center;
+     
+    
+    
+   }
+   .header-2-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+  .Nav-container{
+    display: flex;
+ 
+    gap: 30%;
+  }
+
+  .search-bar {
+    display: flex;
+    background-color: #333; /* Set background color for the search bar */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent; /* Make the input background transparent */
+    color: #fff; /* Set text color to white */
+}
+
+.search-button {
+    background-color: #555; /* Set background color for the search button */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-icon {
+    color: #fff; /* Set color for the search icon */
+}
+/* styles.css */
+.profile-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    bottom: 0;
+   
+   
+    color: #fff;
+   
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .icon-only{
+    width: fit-content;
+    background-color: transparent;
+   
+  }
+
+  .second-div{
+    background-color: #21201E;
+    display: flex;
+   padding: 20px;
+  
+ height: 100%;
+ z-index: 1;
+  }
+  
+  .slide-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+
+  .profile-dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px 20px ;
+  }
+  
+  .profile-button1 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10%;
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  .dropdown-content{
+    display: block;
+  }
+ 
+  
+
+  .content-page-container{
+
+ background-color: rgba(97, 0, 194, 0.3);
+  display: flex;
+  flex-direction: column;
+   overflow-x:auto;
+}
+.content-page-container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.content-page-container::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.content-page-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.baner-contain{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.baner-contain img{
+
+  object-fit: contain;
+ 
+}
+
+.baner-upper-container{
+   position: absolute;
+   bottom: 0%;
+ width: 100%;
+ padding: 20px;
+   background-color: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: space-between;
+
+}
+.play-btn-div-con{
+  background-color: #6100c2;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+  
+}
+
+.two-main-divcontainer{
+  display: flex;
+ align-items: center;
+  padding: 10px 20px;
+}
+.tranding-div{
+  background-color: rgba(97, 0, 194, 0.3);
+  color: #fff;
+  width: 100%;
+  display: flex;
+ overflow: auto;
+
+
+
+}
+
+
+
+
+
+.tranding-div::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.tranding-div::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.tranding-div::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+.trending-item{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+ 
+  
+}
+.trending-item img{
+  object-fit: contain;
+ 
+  height: 300px;
+ 
+}
+.trending-item-info{
+  position: absolute;
+  bottom: 0%;
+  
+ width: 100%;
+padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+}
+.mobile-bar{
+  display: none;
+}
+.menu-bar{
+  display: none;
+  
+}
+@media only screen and (max-width: 768px) {
+    .Nav-container {
+      display: none;
+    }
+    .search-bar{
+      display: none;
+    }
+    .mobile-bar{
+      display: block;
+      position: relative;
+    }
+    .menu-bar{
+      display: block;
+    }
+
+    .mobile-search-bar{
+      position: absolute;
+      display: flex;
+      width: 250px;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+       right: 10%;
+       top: 100%;
+       background-color: #21201E;
+       color: #fff;
+    }
+}
