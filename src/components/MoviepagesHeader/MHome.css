@@ -96,7 +96,7 @@ background-color: #21201E;
     display: flex;
    padding: 20px;
   
- height: 100%;
+ height: fit-content;
  z-index: 1;
   }
   

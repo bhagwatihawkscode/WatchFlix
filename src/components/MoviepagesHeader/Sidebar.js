@@ -122,7 +122,7 @@ const Sidebar = ({ onClose }) => {
               <span>Series</span>
             </div>
           </Link>
-          <div className="slide-content" style={{ marginTop: "70%" }}>
+          {/* <div className="slide-content" style={{ marginTop: "70%" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -155,7 +155,7 @@ const Sidebar = ({ onClose }) => {
               </g>
             </svg>
             <span>Logout</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
