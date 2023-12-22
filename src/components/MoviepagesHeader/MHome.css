@@ -285,4 +285,10 @@ padding: 20px;
        background-color: #21201E;
        color: #fff;
     }
+    .baner-contain img{
+
+      object-fit: contain;
+       width: 350px ;
+       height: 251px;
+    }
 }

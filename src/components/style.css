@@ -80,12 +80,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.menu-bar{
-  display: none;
-}
+
 @media screen and (max-width: 800px) {
   .primery-btn {
-    width: 10%;
+    width: 100%;
   }
   .svg-that-hide {
     display: none;
